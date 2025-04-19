@@ -300,7 +300,6 @@ function SidebarRail({ className, ...props }: React.ComponentProps<"button">) {
 }
 
 function SidebarInset({ className, ...props }: React.ComponentProps<"main">) {
-<<<<<<< HEAD
     return (
         <main
             data-slot="sidebar-inset"
@@ -312,19 +311,17 @@ function SidebarInset({ className, ...props }: React.ComponentProps<"main">) {
             {...props}
         />
     )
-=======
-  return (
-    <main
-      data-slot="sidebar-inset"
-      className={cn(
-        "bg-background relative flex max-w-full min-h-svh flex-1 flex-col",
-        "peer-data-[variant=inset]:min-h-[calc(100svh-(--spacing(4)))] md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-0",
-        className
-      )}
-      {...props}
-    />
-  )
->>>>>>> 7e160e0e825ad74970d1987c4b2c5412b260907f
+    return (
+        <main
+            data-slot="sidebar-inset"
+            className={cn(
+                "bg-background relative flex max-w-full min-h-svh flex-1 flex-col",
+                "peer-data-[variant=inset]:min-h-[calc(100svh-(--spacing(4)))] md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-0",
+                className
+            )}
+            {...props}
+        />
+    )
 }
 
 function SidebarInput({
