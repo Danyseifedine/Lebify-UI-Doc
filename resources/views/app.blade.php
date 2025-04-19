@@ -8,13 +8,13 @@
     <meta name="google" content="notranslate">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#FFFFFF" />
-    <meta name="author" content="Lebify Learning">
+    <meta name="author" content="Lebify UI">
     <meta name="robots" content="index, follow">
 
     <meta name="keywords"
-        content="Lebify Learning, online courses, web development, programming, full stack, Laravel, PHP, JavaScript, HTML, CSS, database, SQL, React, Vue.js, Node.js, API development, responsive design, version control, Git, Agile methodology, software engineering, coding bootcamp, tech education, career development, IT skills, web applications, mobile development, cloud computing, cybersecurity, data structures, algorithms, user experience, UI/UX design, DevOps, continuous integration, software architecture, test-driven development, scalability, performance optimization, front-end development, back-end development, quizzes, interactive learning">
+        content="Lebify UI, React components, UI library, design system, component library, React UI, frontend development, web components, responsive design, accessible components, UI kit, design tokens, theming, customization, Lebanese-inspired design, modern UI, developer tools, buttons, inputs, forms, modals, dropdowns, navigation, layout components, typography, icons, user interface, CSS-in-JS, Tailwind CSS, dark mode, light mode">
     <meta name="description"
-        content="Lebify Learning: Your premier destination for mastering development skills. Dive into our comprehensive courses, engaging quizzes, and interactive learning experiences. From web development to mobile apps, we offer cutting-edge curriculum to boost your tech career. Join Lebify Learning today and transform your coding journey!">
+        content="Lebify UI: A modern React component library with Lebanese-inspired design aesthetics. Build beautiful, accessible, and responsive web applications with ease using our comprehensive collection of customizable UI components.">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('core/vendor/img/favicons/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32"
         href="{{ asset('core/vendor/img/favicons/favicon-32x32.png') }}">
@@ -27,15 +27,15 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="Lebify Learning - Your Gateway to Development Mastery">
+    <meta property="og:title" content="Lebify UI - Modern React Component Library">
     <meta property="og:description"
-        content="Elevate your coding skills with Lebify Learning. Explore our diverse range of development courses, interactive quizzes, and hands-on projects. Start your journey to becoming a proficient developer today!">
+        content="A comprehensive React component library with Lebanese-inspired design aesthetics. Build beautiful, accessible, and responsive web applications with ease.">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url()->current() }}">
-    <meta property="twitter:title" content="Lebify Learning - Your Gateway to Development Mastery">
+    <meta property="twitter:title" content="Lebify UI - Modern React Component Library">
     <meta property="twitter:description"
-        content="Elevate your coding skills with Lebify Learning. Explore our diverse range of development courses, interactive quizzes, and hands-on projects. Start your journey to becoming a proficient developer today!">
+        content="A comprehensive React component library with Lebanese-inspired design aesthetics. Build beautiful, accessible, and responsive web applications with ease.">
     <!-- ===============================================-->
     <!--    Package-->
     <!-- ===============================================-->
@@ -66,7 +66,7 @@
         }
     </style>
 
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <title inertia>{{ config('app.name', 'Lebify UI') }}</title>
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
@@ -79,12 +79,20 @@
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "Lebify UI - Your Gateway to Development Mastery",
+            "@type": "SoftwareApplication",
+            "name": "Lebify UI",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
             "url": "https://ui.lebify.online",
             "logo": "{{ asset('core/vendor/img/favicons/favicon.ico') }}",
+            "description": "A modern React component library with Lebanese-inspired design aesthetics",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
             }
-        </script>
+        }
+    </script>
 </head>
 
 <body class="font-sans antialiased">
