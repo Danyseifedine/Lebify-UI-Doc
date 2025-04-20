@@ -7,15 +7,14 @@ export default function Welcome() {
     return (
         <CodeThemeProvider>
             <Head title="Welcome - Lebify UI">
-                <link rel="preconnect" href="https://fonts.bunny.net" />
-                <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+                <link rel="preconnect" href="https://fonts.bunny.net" as="font" />
+                <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" as="style" rel="stylesheet" />
             </Head>
             <Navbar />
             <main className="flex items-center justify-center min-h-screen animate-background" style={{
-                backgroundImage: 'url(assets/images/bg.svg)',
+                backgroundImage: 'url(assets/images/bg.webp)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-
             }}>
                 <div className="">
                     <section className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
