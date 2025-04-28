@@ -30,6 +30,8 @@ export function Sidebar() {
                 { title: 'Button', href: '/docs/components/button', },
                 { title: 'Pattern', href: '/docs/components/pattern' },
                 { title: 'Input', href: '/docs/components/input' },
+                { title: 'Badge', href: '/docs/components/badge' },
+                { title: 'Avatar', href: '/docs/components/avatar' },
             ],
         },
         {
@@ -39,6 +41,7 @@ export function Sidebar() {
                 { title: 'Button Styling', href: '/docs/customization/button' },
                 { title: 'Input Styling', href: '/docs/customization/input' },
                 { title: 'Pattern Styling', href: '/docs/customization/pattern' },
+
             ],
         },
     ]

@@ -47,9 +47,15 @@ Route::prefix('docs')->name('doc.')->group(function () {
             return Inertia::render('web/doc/comp/input');
         })->name('input');
 
-        Route::get('/select', function () {
-            return Inertia::render('web/doc/components/select');
-        })->name('select');
+
+        Route::get('/badge', function () {
+            return Inertia::render('web/doc/comp/badge');
+        })->name('badge');
+
+
+        Route::get('/avatar', function () {
+            return Inertia::render('web/doc/comp/avatar');
+        })->name('avatar');
     });
 
     // Frameworks
