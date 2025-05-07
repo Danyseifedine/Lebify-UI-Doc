@@ -69,7 +69,8 @@ export function Navbar() {
                                     { href: route('doc.installation'), label: 'Docs' },
                                     { href: '/playground', label: 'Playground' },
                                     { href: '/guides', label: 'Guides' },
-                                    { href: '/blog', label: 'Blog' }
+                                    { href: '/blog', label: 'Blog' },
+                                    { href: '/contributors', label: 'Contributors' }
                                 ].map((item) => (
                                     <Link
                                         key={item.label}
