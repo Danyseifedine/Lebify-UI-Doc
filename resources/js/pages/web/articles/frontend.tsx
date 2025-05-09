@@ -802,16 +802,7 @@ export default Counter;`} />
                                     </svg>
                                 </Link>
 
-                                <Link href={route('doc.components')}
-                                    className="inline-flex items-center justify-center px-4 md:px-6 py-3 bg-orange-700 text-white font-medium rounded-lg hover:bg-orange-800 transition-colors duration-300 shadow-md text-sm md:text-base">
-                                    View Components
-                                    <svg className="ml-2 w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4">
-                                        </path>
-                                    </svg>
-                                </Link>
+                            
                             </div>
                         </div>
                     </div>
@@ -834,7 +825,7 @@ export default Counter;`} />
                                 className="rounded-xl overflow-hidden max-w-md mx-auto"
                             >
                                 <img
-                                    src="/assets/images/leb-robot-frontend.png"
+                                    src="/assets/images/leb-icon-frontend2.png"
                                     alt="YouTube Videos"
                                     className="w-full h-auto object-contain"
                                     onError={(e) => {

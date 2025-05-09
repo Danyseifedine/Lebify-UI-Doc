@@ -19,6 +19,14 @@ Route::prefix('blog')->name('blog.')->group(function () {
     Route::get('/frontend-development', function () {
         return Inertia::render('web/articles/frontend');
     })->name('frontend');
+
+    Route::get('/react', function () {
+        return Inertia::render('web/articles/react');
+    })->name('react');
+
+    Route::get('/other-libraries', function () {
+        return Inertia::render('web/articles/otherLibraries');
+    })->name('other-libraries');
 });
 
 Route::prefix('docs')->name('doc.')->group(function () {
