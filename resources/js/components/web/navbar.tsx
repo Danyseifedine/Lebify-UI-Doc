@@ -67,10 +67,10 @@ export function Navbar() {
                             <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
                                 {[
                                     { href: route('doc.installation'), label: 'Docs' },
+                                    { href: route('blog'), label: 'Blog' },
                                     { href: '/playground', label: 'Playground' },
                                     { href: '/guides', label: 'Guides' },
-                                    { href: '/blog', label: 'Blog' },
-                                    { href: '/contributors', label: 'Contributors' }
+                                    { href: route('contributors'), label: 'Contributors' }
                                 ].map((item) => (
                                     <Link
                                         key={item.label}

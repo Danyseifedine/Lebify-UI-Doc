@@ -99,7 +99,7 @@ return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 mb-24 max-w-5xl mx-auto">
             {/* Developers Stat */}
             <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl blur opacity-20 group-hover:opacity-70 transition duration-300"></div>
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl blur opacity-10 group-hover:opacity-30 transition duration-300"></div>
                 <div className="relative bg-white dark:bg-black rounded-xl p-5 border border-gray-100 dark:border-gray-800 h-full flex flex-col items-center justify-center group-hover:border-transparent transition-all duration-300 transform group-hover:-translate-y-1">
                     <div className="flex items-center justify-center w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -117,7 +117,7 @@ return (
 
             {/* Projects Stat */}
             <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl blur opacity-20 group-hover:opacity-70 transition duration-300"></div>
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl blur opacity-10 group-hover:opacity-30 transition duration-300"></div>
                 <div className="relative bg-white dark:bg-black rounded-xl p-5 border border-gray-100 dark:border-gray-800 h-full flex flex-col items-center justify-center group-hover:border-transparent transition-all duration-300 transform group-hover:-translate-y-1">
                     <div className="flex items-center justify-center w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg className="w-6 h-6 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -135,7 +135,7 @@ return (
 
             {/* Countries Stat */}
             <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-green-600 rounded-xl blur opacity-20 group-hover:opacity-70 transition duration-300"></div>
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-green-600 rounded-xl blur opacity-10 group-hover:opacity-30 transition duration-300"></div>
                 <div className="relative bg-white dark:bg-black rounded-xl p-5 border border-gray-100 dark:border-gray-800 h-full flex flex-col items-center justify-center group-hover:border-transparent transition-all duration-300 transform group-hover:-translate-y-1">
                     <div className="flex items-center justify-center w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg className="w-6 h-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -153,7 +153,7 @@ return (
 
             {/* Contributions Stat */}
             <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl blur opacity-20 group-hover:opacity-70 transition duration-300"></div>
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl blur opacity-10 group-hover:opacity-30 transition duration-300"></div>
                 <div className="relative bg-white dark:bg-black rounded-xl p-5 border border-gray-100 dark:border-gray-800 h-full flex flex-col items-center justify-center group-hover:border-transparent transition-all duration-300 transform group-hover:-translate-y-1">
                     <div className="flex items-center justify-center w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg className="w-6 h-6 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -174,13 +174,13 @@ return (
         <div className="relative rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-800">
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 backdrop-blur-sm"></div>
             <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch relative">
-                <div className="p-8 md:p-12 lg:p-16 relative z-10 bg-white/90 dark:bg-black/90 flex flex-col justify-between h-full">
+                <div className="p-8 md:p-12 lg:p-16 relative z-10 bg-[#00010A] dark:bg-black/90 flex flex-col justify-between h-full">
                     <div>
                         <div className="w-12 h-1 bg-orange-500 mb-8 rounded-full"></div>
-                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+                        <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
                             Build with a <span className="text-orange-500">thriving community</span>
                         </h3>
-                        <p className="text-gray-700 dark:text-gray-300 text-lg pb-10 leading-relaxed">
+                        <p className="text-gray-700 text-white text-lg pb-10 leading-relaxed">
                             Join thousands of developers who are creating exceptional user experiences with Lebify. Share
                             your work, get feedback, and collaborate on the next generation of web applications.
                         </p>
@@ -189,7 +189,7 @@ return (
                     {/* Refined Testimonials Carousel */}
                     <div className="mb-10">
                         <div className="flex items-center justify-between pb-6">
-                            <h4 className="text-xl font-semibold text-gray-900 dark:text-white flex items-center">
+                            <h4 className="text-xl font-semibold text-white flex items-center">
                                 <span className="w-8 h-8 flex items-center justify-center bg-orange-100 dark:bg-orange-900/30 rounded-full mr-3">
                                     <svg className="w-4 h-4 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z" />

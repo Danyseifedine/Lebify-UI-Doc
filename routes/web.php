@@ -7,6 +7,14 @@ Route::get('/', function () {
     return Inertia::render('web/welcome');
 })->name('home');
 
+Route::get('/blog', function () {
+    return Inertia::render('web/blog');
+})->name('blog');
+
+Route::get('/contributors', function () {
+    return Inertia::render('web/contributors');
+})->name('contributors');
+
 Route::prefix('docs')->name('doc.')->group(function () {
     // Overview
     Route::get('/installation', function () {
