@@ -4,16 +4,16 @@ import WebLayout from '../../layouts/web-layout';
 import { CodeThemeProvider } from '@/components/codeBlock/contexts/code-theme-context';
 import { motion } from 'framer-motion';
 
-// Sample blog data with real images
+// Sample blog data with real images and routes
 const blogPosts = [
-{ id: 1, date: "May 15, 2023", image: "/assets/images/blog-1.png" },
-{ id: 2, date: "April 28, 2023", image: "/assets/images/blog-2.png" },
-{ id: 3, date: "April 15, 2023", image: "/assets/images/blog-3.png" },
-{ id: 4, date: "April 3, 2023", image: "/assets/images/blog-4.png" },
-{ id: 5, date: "March 22, 2023", image: "/assets/images/blog-5.png" },
-{ id: 6, date: "March 10, 2023", image: "/assets/images/blog-6.png" },
-{ id: 7, date: "February 28, 2023", image: "/assets/images/blog-1.png" },
-{ id: 8, date: "February 15, 2023", image: "/assets/images/blog-2.png" },
+  { id: 1, date: "May 15, 2023", image: "/assets/images/blog-1.png", href: route('blog.frontend') },
+  { id: 2, date: "April 28, 2023", image: "/assets/images/blog-2.png", href: route('blog.frontend') },
+  { id: 3, date: "April 15, 2023", image: "/assets/images/blog-3.png", href: route('blog.frontend') },
+  { id: 4, date: "April 3, 2023", image: "/assets/images/blog-4.png", href: route('blog.frontend') },
+  { id: 5, date: "March 22, 2023", image: "/assets/images/blog-5.png", href: route('blog.frontend') },
+  { id: 6, date: "March 10, 2023", image: "/assets/images/blog-6.png", href: route('blog.frontend') },
+  { id: 7, date: "February 28, 2023", image: "/assets/images/blog-1.png", href: route('blog.frontend') },
+  { id: 8, date: "February 15, 2023", image: "/assets/images/blog-2.png", href: route('blog.frontend') },
 ];
 
 const Blog = () => {
@@ -64,7 +64,7 @@ const [hoveredPost, setHoveredPost] = useState<number | null>(null);
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         {blogPosts.slice(2).map((post, index) => (
-                        <Link key={post.id} href={`/blog/${post.id}`} className="group block">
+                        <Link key={post.id} href={post.href} className="group block">
                         <motion.div
                             className="relative aspect-square rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out"
                             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
