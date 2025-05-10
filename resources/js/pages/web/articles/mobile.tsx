@@ -5,21 +5,21 @@ import { CodeBlock } from '@/components/codeBlock/code-block';
 import { Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 
-const FrontendArticle = () => {
+const MobileArticle = () => {
 return (
 <CodeThemeProvider>
-    <WebLayout title="Frontend Development: Building Interactive Websites"
-        description="Learn about modern frontend development techniques and tools to create engaging, interactive websites.">
+    <WebLayout title="Mobile Development: Building Apps for iOS and Android"
+        description="Explore the world of mobile app development, from native frameworks to cross-platform solutions, and learn how to build engaging mobile experiences for iOS and Android.">
 
         {/* Hero Section with Centered Image */}
-        <section className="pt-32  pb-8 md:pb-16 bg-white dark:bg-black">
+        <section className="pt-32 pb-8 md:pb-16 bg-white dark:bg-black">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-center">
                     {/* Centered Image */}
                     <div className="w-full max-w-4xl">
                         <div className="rounded-2xl overflow-hidden shadow-2xl aspect-square md:aspect-square relative">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                            <img src="/assets/images/blog-3.png" alt="Frontend Development" className="w-full h-full object-cover" />
+                            <img src="/assets/images/blog-3.png" alt="Mobile App Development" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
@@ -31,25 +31,18 @@ return (
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto">
 
-
                     {/* Introduction - Enhanced typography and spacing */}
                     <div className="prose prose-lg md:prose-xl dark:prose-invert max-w-none pb-12 md:pb-20">
                         <h1
                             className="text-2xl md:text-3xl lg:text-4xl font-bold pb-6 md:pb-8 text-gray-900 dark:text-white relative">
-                            Introduction to <span className="text-orange-500">Frontend Development</span>
+                            Introduction to <span className="text-orange-500">Mobile Development</span>
                         </h1>
                         <p className="text-lg md:text-xl leading-relaxed mb-6">
-                            Frontend development is the art and science of creating the user interface and user
-                            experience of websites and web applications. It's where design meets functionality, and
-                            where user interactions come to life. In today's digital landscape, having an engaging,
-                            responsive, and intuitive frontend is crucial for any successful web project.
+                            Mobile development is the process of creating applications that run on mobile devices such as smartphones and tablets. With over 6.8 billion smartphone users worldwide, mobile apps have become an essential part of our daily lives, transforming how we communicate, shop, work, and entertain ourselves.
                         </p>
                         <br />
                         <p className="text-lg md:text-xl leading-relaxed">
-                            This article explores the core technologies, modern frameworks, and best practices that
-                            power frontend development in 2023 and beyond. Whether you're a beginner looking to start
-                            your journey or an experienced developer wanting to stay updated with the latest trends,
-                            this guide will provide valuable insights into building interactive websites.
+                            This article explores the mobile development landscape, including native, cross-platform, and hybrid approaches, essential tools and frameworks, and best practices for creating successful mobile applications. Whether you're a beginner looking to start your journey in mobile development or an experienced developer wanting to expand your knowledge, this guide will provide valuable insights into building engaging mobile experiences.
                         </p>
                     </div>
 
@@ -57,30 +50,144 @@ return (
                     <div className="prose prose-lg md:prose-xl dark:prose-invert max-w-none mb-12 md:mb-20">
                         <h2
                             className="text-2xl md:text-3xl lg:text-4xl font-bold pb-6 md:pb-8 text-gray-900 dark:text-white relative">
-                            Core Frontend <span className="text-orange-500">Technologies</span>
+                            Mobile Development <span className="text-orange-500">Approaches</span>
                         </h2>
                         <p className="text-lg md:text-xl leading-relaxed pb-6 md:pb-10">
-                            The foundation of frontend development rests on three core technologies:
+                            There are three main approaches to mobile app development, each with its own advantages and trade-offs:
                         </p>
 
-                        {/* HTML Section with icon */}
+                        {/* Native Development Section with icon */}
                         <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
-                                    className="w-12 h-12 md:w-16 md:h-16 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-orange-500"
+                                    className="w-12 h-12 md:w-16 md:h-16 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-red-500"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                            d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white">HTML
-                                    (HyperText Markup Language)</h3>
+                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
+                                    Native Development
+                                </h3>
                             </div>
                             <p className="text-lg md:text-xl leading-relaxed mb-6">
-                                HTML provides the structure and content of web pages. It's the skeleton that holds
-                                everything together, defining elements like headings, paragraphs, images, links, and
-                                more.
+                                Native mobile development involves building apps specifically for a single platform using the platform's core programming language and APIs. This approach offers the best performance and access to all device features.
+                            </p>
+                            <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
+                                <CodeBlock language="swift" code={`// iOS - Swift example
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+    }
+
+    private func setupUI() {
+        // Create a button
+        let button = UIButton(type: .system)
+        button.setTitle("Tap Me", for: .normal)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+
+        // Add button to view
+        button.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(button)
+
+        // Set constraints
+        NSLayoutConstraint.activate([
+            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+    }
+
+    @objc private func buttonTapped() {
+        print("Button was tapped!")
+    }
+}`} />
+                            </div>
+
+                            <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
+                                <CodeBlock language="kotlin" code={`// Android - Kotlin example
+package com.example.myapp
+
+import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener {
+            Toast.makeText(this, "Button was clicked!", Toast.LENGTH_SHORT).show()
+        }
+    }
+}`} />
+                            </div>
+                        </div>
+
+                        {/* Cross-Platform Development Section with icon */}
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
+                            <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
+                                <div
+                                    className="w-12 h-12 md:w-16 md:h-16 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-yellow-500"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
+                                    Cross-Platform Development
+                                </h3>
+                            </div>
+                            <p className="text-lg md:text-xl leading-relaxed mb-6">
+                                Cross-platform development involves building apps using frameworks that allow code reuse across multiple platforms. This approach can save time and resources but may have limitations in terms of performance and feature access.
+                            </p>
+                            <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
+                                <CodeBlock language="react" code={`// React Native example
+import React, { useState } from 'react';
+import { View, Text, Button } from 'react-native';
+
+function App() {
+    const [count, setCount] = useState(0);
+
+    return (
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 20 }}>Counter: {count}</Text>
+            <Button title="Increment" onPress={() => setCount(count + 1)} />
+            <Button title="Decrement" onPress={() => setCount(count - 1)} />
+        </View>
+    );
+}
+
+export default App;`} />
+                            </div>
+                        </div>
+
+                        {/* Hybrid Development Section with icon */}
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
+                            <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
+                                <div
+                                    className="w-12 h-12 md:w-16 md:h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-green-500"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
+                                    Hybrid Development
+                                </h3>
+                            </div>
+                            <p className="text-lg md:text-xl leading-relaxed mb-6">
+                                Hybrid development involves building apps using web technologies and frameworks, which can then be deployed to multiple platforms. This approach offers flexibility but may have limitations in terms of performance and feature access.
                             </p>
                             <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
                                 <CodeBlock language="html" code={`<!DOCTYPE html>
@@ -108,90 +215,6 @@ return (
 </html>`} />
                             </div>
                         </div>
-
-                        {/* CSS Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
-                            <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
-                                <div
-                                    className="w-12 h-12 md:w-16 md:h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-blue-500"
-                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h10a2 2 0 012 2v12a4 4 0 01-4 4H7zm0 0h10" />
-                                    </svg>
-                                </div>
-                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white">CSS
-                                    (Cascading Style Sheets)</h3>
-                            </div>
-                            <p className="text-lg md:text-xl leading-relaxed mb-6">
-                                CSS handles the presentation and styling of web pages. It transforms the plain HTML
-                                structure into visually appealing designs with colors, layouts, animations, and
-                                responsive behaviors.
-                            </p>
-                            <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
-                                <CodeBlock language="css" code={`.header {
-        background-color: #f8f9fa;
-        padding: 2rem;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1rem;
-    }
-
-    /* Responsive design */
-    @media (max-width: 768px) {
-        .container {
-            padding: 0 0.5rem;
-        }
-    }`} />
-                            </div>
-                        </div>
-
-                        {/* JavaScript Section with icon */}
-                        <div className=" bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
-                            <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
-                                <div
-                                    className="w-12 h-12 md:w-16 md:h-16 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-yellow-500"
-                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                            d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                                    </svg>
-                                </div>
-                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white">JavaScript
-                                </h3>
-                            </div>
-                            <p className="text-lg md:text-xl leading-relaxed mb-6">
-                                JavaScript brings interactivity and dynamic behavior to websites. It allows developers
-                                to create complex features, handle user interactions, manipulate the DOM, and
-                                communicate with servers.
-                            </p>
-                            <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
-                                <CodeBlock language="javascript" code={`// Simple interactive feature
-const button = document.querySelector('#toggleButton');
-const element = document.querySelector('.toggleElement');
-
-button.addEventListener('click', () => {
-    // Toggle visibility
-    if (element.style.display === 'none') {
-        element.style.display = 'block';
-    } else {
-        element.style.display = 'none';
-    }
-
-    // Add animation class
-    element.classList.add('animate-fade');
-
-    // Remove animation class after animation completes
-    setTimeout(() => {
-        element.classList.remove('animate-fade');
-    }, 500);
-});`} />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -203,10 +226,10 @@ button.addEventListener('click', () => {
                 <div className="max-w-4xl mx-auto">
                     <div className="text-left">
                         <h2 className="text-4xl font-bold text-gray-900 dark:text-white pb-8">
-                            Modern Frontend <span className="text-orange-500">Frameworks</span>
+                            Modern Mobile <span className="text-orange-500">Frameworks</span>
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto pb-8">
-                            While the core technologies provide the foundation, modern frontend frameworks and libraries
+                            While the core technologies provide the foundation, modern mobile frameworks and libraries
                             help developers build complex, interactive applications more efficiently. These tools offer
                             structured approaches to common challenges, reusable components, and optimized rendering.
                         </p>
@@ -214,7 +237,7 @@ button.addEventListener('click', () => {
 
                     {/* Framework cards grid */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-                        {/* React Card */}
+                        {/* React Native Card */}
                         <div
                             className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 p-6 rounded-xl shadow-md border border-blue-200 dark:border-blue-800">
                             <div className="flex items-center mb-4">
@@ -222,15 +245,14 @@ button.addEventListener('click', () => {
                                     <path
                                         d="M12 9.861A2.139 2.139 0 1 0 12 14.139 2.139 2.139 0 1 0 12 9.861zM6.008 16.255l-.472-.12C2.018 15.246 0 13.737 0 11.996s2.018-3.25 5.536-4.139l.472-.119.133.468a23.53 23.53 0 0 0 1.363 3.578l.101.213-.101.213a23.307 23.307 0 0 0-1.363 3.578l-.133.467zM5.317 8.95c-2.674.751-4.315 1.9-4.315 3.046 0 1.145 1.641 2.294 4.315 3.046a24.95 24.95 0 0 1 1.182-3.046A24.752 24.752 0 0 1 5.317 8.95zM17.992 16.255l-.133-.469a23.357 23.357 0 0 0-1.364-3.577l-.101-.213.101-.213a23.42 23.42 0 0 0 1.364-3.578l.133-.468.473.119c3.517.889 5.535 2.398 5.535 4.14s-2.018 3.25-5.535 4.139l-.473.12zm-.491-4.259c.48 1.039.877 2.06 1.182 3.046 2.675-.752 4.315-1.901 4.315-3.046 0-1.146-1.641-2.294-4.315-3.046a24.788 24.788 0 0 1-1.182 3.046zM5.31 8.945l-.133-.467C4.188 4.992 4.488 2.494 6 1.622c1.483-.856 3.864.155 6.359 2.716l.34.349-.34.349a23.552 23.552 0 0 0-2.422 2.967l-.135.193-.235.02a23.657 23.657 0 0 0-3.785.61l-.472.119zm1.896-6.63c-.268 0-.505.058-.705.173-.994.573-1.17 2.565-.485 5.253a25.122 25.122 0 0 1 3.233-.501 24.847 24.847 0 0 1 2.052-2.544c-1.56-1.519-3.037-2.381-4.095-2.381zM16.795 22.677c-.001 0-.001 0 0 0-1.425 0-3.255-1.073-5.154-3.023l-.34-.349.34-.349a23.53 23.53 0 0 0 2.421-2.968l.135-.193.234-.02a23.63 23.63 0 0 0 3.787-.609l.472-.119.134.468c.987 3.484.688 5.983-.824 6.854a2.38 2.38 0 0 1-1.205.308zm-4.096-3.381c1.56 1.519 3.037 2.381 4.095 2.381h.001c.267 0 .505-.058.704-.173.994-.573 1.171-2.566.485-5.254a25.02 25.02 0 0 1-3.234.501 24.674 24.674 0 0 1-2.051 2.545zM18.69 8.945l-.472-.119a23.479 23.479 0 0 0-3.787-.61l-.234-.02-.135-.193a23.414 23.414 0 0 0-2.421-2.967l-.34-.349.34-.349C14.135 1.778 16.515.767 18 1.622c1.512.872 1.812 3.37.824 6.855l-.134.468zM14.75 7.24c1.142.104 2.227.273 3.234.501.686-2.688.509-4.68-.485-5.253-.988-.571-2.845.304-4.8 2.208A24.849 24.849 0 0 1 14.75 7.24zM7.206 22.677A2.38 2.38 0 0 1 6 22.369c-1.512-.871-1.812-3.369-.823-6.854l.132-.468.472.119c1.155.291 2.429.496 3.785.609l.235.02.134.193a23.596 23.596 0 0 0 2.422 2.968l.34.349-.34.349c-1.898 1.95-3.728 3.023-5.151 3.023zm-1.19-6.427c-.686 2.688-.509 4.681.485 5.254.987.563 2.843-.305 4.8-2.208a24.998 24.998 0 0 1-2.052-2.545 24.976 24.976 0 0 1-3.233-.501zM12 16.878c-.823 0-1.669-.036-2.516-.106l-.235-.02-.135-.193a30.388 30.388 0 0 1-1.35-2.122 30.354 30.354 0 0 1-1.166-2.228l-.1-.213.1-.213a30.3 30.3 0 0 1 1.166-2.228c.414-.716.869-1.43 1.35-2.122l.135-.193.235-.02a29.785 29.785 0 0 1 5.033 0l.234.02.134.193a30.006 30.006 0 0 1 2.517 4.35l.101.213-.101.213a29.6 29.6 0 0 1-2.517 4.35l-.134.193-.234.02c-.847.07-1.694.106-2.517.106zm-2.197-1.084c1.48.111 2.914.111 4.395 0a29.006 29.006 0 0 0 2.196-3.798 28.585 28.585 0 0 0-2.197-3.798 29.031 29.031 0 0 0-4.394 0 28.477 28.477 0 0 0-2.197 3.798 29.114 29.114 0 0 0 2.197 3.798z" />
                                 </svg>
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">React</h3>
+                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">React Native</h3>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300">
-                                A JavaScript library for building user interfaces with a component-based
-                                architecture and virtual DOM for efficient rendering.
+                                A framework for building native apps for iOS and Android using React.
                             </p>
                         </div>
 
-                        {/* Vue Card */}
+                        {/* Flutter Card */}
                         <div
                             className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 p-6 rounded-xl shadow-md border border-green-200 dark:border-green-800">
                             <div className="flex items-center mb-4">
@@ -239,15 +261,14 @@ button.addEventListener('click', () => {
                                     <path
                                         d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z" />
                                 </svg>
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Vue.js</h3>
+                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Flutter</h3>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300">
-                                A progressive framework for building user interfaces with an incrementally adoptable
-                                architecture.
+                                A framework for building high-performance, high-fidelity apps for mobile, web, and desktop from a single codebase.
                             </p>
                         </div>
 
-                        {/* Angular Card */}
+                        {/* SwiftUI Card */}
                         <div
                             className="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 p-6 rounded-xl shadow-md border border-red-200 dark:border-red-800">
                             <div className="flex items-center mb-4">
@@ -255,11 +276,10 @@ button.addEventListener('click', () => {
                                     <path
                                         d="M9.93 12.645h4.134L11.996 7.74M11.996.009L.686 3.988l1.725 14.76 9.585 5.243 9.588-5.238L23.308 3.99 11.996.01zm7.058 18.297h-2.636l-1.42-3.501H8.995l-1.42 3.501H4.937l7.06-15.648 7.057 15.648z" />
                                 </svg>
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Angular</h3>
+                                <h3 className="text-xl font-bold text-gray-900 dark:text-white">SwiftUI</h3>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300">
-                                A platform and framework for building single-page client applications using HTML and
-                                TypeScript.
+                                A framework for building user interfaces with a declarative syntax and reactive programming.
                             </p>
                         </div>
                     </div>
@@ -268,7 +288,7 @@ button.addEventListener('click', () => {
                     <div className="mt-10 shadow-lg rounded-xl overflow-hidden">
                         <div
                             className="bg-blue-100 dark:bg-blue-900/30 px-6 py-3 border-b border-blue-200 dark:border-blue-800">
-                            <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-300">React Component
+                            <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-300">React Native Component
                                 Example</h4>
                         </div>
                         <CodeBlock language="jsx" code={`import React, { useState } from 'react';
@@ -297,24 +317,24 @@ export default Counter;`} />
                 <div className="max-w-4xl mx-auto">
                     <div className="text-left mb-16">
                         <h2 className="text-4xl font-bold text-gray-900 dark:text-white pb-8">
-                            Responsive <span className="text-orange-500">Design & Mobile-First</span> Approach
+                            Responsive <span className="text-orange-500">Design & Mobile-First</span> Development
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                            With the increasing variety of devices used to access the web, responsive design has become
-                            essential. A mobile-first approach means designing for mobile devices first, then progressively
-                            enhancing the experience for larger screens.
+                            With the diversity of mobile devices in the market, responsive design is crucial for mobile apps.
+                            A mobile-first approach means designing for smaller screens first, then adapting the experience
+                            for tablets and larger devices.
                         </p>
                     </div>
 
                     {/* Responsive design illustration */}
                     <div
-                        className="my-10 flex flex-col md:flex-row items-center justify-center gap-6 bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
+                        className="my-10 flex flex-col md:flex-row items-center justify-center gap-6 bg-transparent border-2 p-8 rounded-2xl">
                         <div className="w-full md:w-1/3 flex justify-center">
                             <div
                                 className="w-20 h-40 border-4 border-gray-300 dark:border-gray-700 rounded-xl relative">
                                 <div
                                     className="absolute inset-1 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                                    <span className="text-xs text-blue-800 dark:text-blue-300">Mobile</span>
+                                    <span className="text-xs text-blue-800 dark:text-blue-300">Phone</span>
                                 </div>
                             </div>
                         </div>
@@ -332,14 +352,14 @@ export default Counter;`} />
                                 className="w-48 h-40 border-4 border-gray-300 dark:border-gray-700 rounded-xl relative">
                                 <div
                                     className="absolute inset-1 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center">
-                                    <span className="text-xs text-purple-800 dark:text-purple-300">Desktop</span>
+                                    <span className="text-xs text-purple-800 dark:text-purple-300">Foldable</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <p className="text-xl leading-relaxed pb-6">
-                        Key principles of responsive design include:
+                        Key principles of responsive mobile design include:
                     </p>
 
                     <ul className="space-y-4 mb-10">
@@ -348,7 +368,7 @@ export default Counter;`} />
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Fluid grids and layouts that adapt to screen size</span>
+                            <span className="text-xl">Adaptive layouts that respond to different screen sizes</span>
                         </li>
                         <li className="flex items-start">
                             <div
@@ -362,8 +382,7 @@ export default Counter;`} />
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Media queries to apply different styles based on device
-                                characteristics</span>
+                            <span className="text-xl">Orientation changes handling (portrait vs landscape)</span>
                         </li>
                         <li className="flex items-start">
                             <div
@@ -375,8 +394,8 @@ export default Counter;`} />
                     </ul>
 
                     <p className="text-xl leading-relaxed">
-                        Modern CSS frameworks like Tailwind CSS, Bootstrap, and Foundation provide tools and components
-                        to implement responsive designs efficiently.
+                        Modern mobile frameworks like React Native, Flutter, and SwiftUI provide tools and components
+                        to implement responsive designs efficiently across different device sizes.
                     </p>
                 </div>
             </div>
@@ -388,21 +407,22 @@ export default Counter;`} />
                 <div className="max-w-4xl mx-auto">
                     <div className="text-left mb-16">
                         <h2 className="text-4xl font-bold text-gray-900 dark:text-white pb-8">
-                            Performance <span className="text-orange-500">Optimization</span>
+                            Mobile App <span className="text-orange-500">Performance</span>
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                            Website performance directly impacts user experience and conversion rates. Frontend developers
-                            need to optimize their code and assets to ensure fast loading times and smooth interactions.
+                            Mobile app performance directly impacts user experience, retention rates, and app store ratings.
+                            Developers need to optimize their code and assets to ensure fast loading times, smooth animations,
+                            and efficient battery usage.
                         </p>
                     </div>
 
                     {/* Performance metrics visualization */}
-                    <div className="my-10 bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white pb-6">Key Performance <span
-                                className="text-orange-500">Metrics</span>
+                    <div className="my-10 bg-transparent border-2 p-8 rounded-2xl">
+                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white pb-6">Key Mobile <span
+                                className="text-orange-500">Performance Metrics</span>
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
@@ -412,14 +432,13 @@ export default Counter;`} />
                                                 d="M13 10V3L4 14h7v7l9-11h-7z" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">First Contentful
-                                        Paint</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">App Launch Time</h4>
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300">
-                                    Measures how long it takes for the first content to appear on screen
+                                    Measures how quickly your app starts up and becomes interactive
                                 </p>
                             </div>
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
@@ -429,14 +448,13 @@ export default Counter;`} />
                                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Time to
-                                        Interactive</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Frame Rate</h4>
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300">
-                                    Measures when the page becomes fully interactive for the user
+                                    Measures the smoothness of animations and scrolling (aim for 60 FPS)
                                 </p>
                             </div>
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-4">
@@ -446,18 +464,18 @@ export default Counter;`} />
                                                 d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Cumulative
-                                        Layout Shift</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Battery
+                                        Consumption</h4>
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300">
-                                    Measures visual stability and unexpected layout shifts
+                                    Measures how efficiently your app uses device battery
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <p className="text-xl leading-relaxed pb-10">
-                        Key performance optimization techniques include:
+                        Key mobile performance optimization techniques include:
                     </p>
 
                     <ul className="space-y-4 mb-10">
@@ -466,40 +484,40 @@ export default Counter;`} />
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Minimizing and compressing CSS and JavaScript files</span>
+                            <span className="text-xl">Optimizing image assets and using proper formats</span>
                         </li>
                         <li className="flex items-start">
                             <div
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Optimizing images and using modern formats like WebP</span>
+                            <span className="text-xl">Implementing efficient memory management</span>
                         </li>
                         <li className="flex items-start">
                             <div
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Implementing lazy loading for images and components</span>
+                            <span className="text-xl">Using lazy loading for screens and components</span>
                         </li>
                         <li className="flex items-start">
                             <div
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Using code splitting to load only necessary JavaScript</span>
+                            <span className="text-xl">Optimizing network requests and implementing caching</span>
                         </li>
                         <li className="flex items-start">
                             <div
                                 className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center mt-1 mr-3">
                                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                             </div>
-                            <span className="text-xl">Leveraging browser caching and CDNs</span>
+                            <span className="text-xl">Reducing app size with code splitting and tree shaking</span>
                         </li>
                     </ul>
 
                     <div
-                        className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                         <div className="flex items-center mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-orange-500 mr-2" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
@@ -509,25 +527,25 @@ export default Counter;`} />
                             <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Pro Tip</h4>
                         </div>
                         <p className="text-gray-700 dark:text-gray-300">
-                            Tools like Lighthouse, WebPageTest, and Chrome DevTools can help identify performance
-                            bottlenecks and guide optimization efforts. Regular performance audits should be part of
-                            your development workflow.
+                            Tools like Android Profiler, Xcode Instruments, and React Native Flipper can help identify
+                            performance bottlenecks in your mobile apps. Regular performance testing on actual devices
+                            should be part of your development workflow.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        {/* Accessibility - Enhanced with visual elements and better styling */}
+        {/* Mobile Accessibility - Enhanced with visual elements and better styling */}
         <section className="py-10 bg-white dark:bg-black">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-left mb-8">
                         <h1 className="text-4xl font-bold text-gray-900 dark:text-white pb-8">
-                            Web <span className="text-orange-500">Accessibility</span>
+                            Mobile <span className="text-orange-500">Accessibility</span>
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                            Creating accessible websites means designing and developing with all users in mind, regardless
+                            Creating accessible mobile apps means designing and developing with all users in mind, regardless
                             of their abilities or disabilities. This inclusive approach not only helps people with permanent
                             disabilities but also benefits those with temporary limitations or situational constraints.
                         </p>
@@ -546,12 +564,12 @@ export default Counter;`} />
                                 </svg>
                             </div>
                             <div>
-                                <h3 className="text-2xl font-bold text-purple-800 dark:text-purple-400">Why
+                                <h3 className="text-2xl font-bold text-purple-800 dark:text-purple-400 pb-4">Why
                                     Accessibility Matters</h3>
                                 <p className="text-purple-700 dark:text-purple-300 text-lg">
-                                    Web accessibility ensures that websites and applications are usable by people with
-                                    disabilities.
-                                    It's not just a moral imperative but also a legal requirement in many jurisdictions.
+                                    Mobile accessibility ensures that apps are usable by people with
+                                    disabilities. It's not just a moral imperative but also a legal requirement in many jurisdictions
+                                    and a requirement for app store approval.
                                 </p>
                             </div>
                         </div>
@@ -575,11 +593,10 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Semantic HTML
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Screen Reader Support
                                     </h4>
                                     <p className="text-gray-700 dark:text-gray-300">
-                                        Use proper HTML elements for their intended purpose to provide meaning and
-                                        structure
+                                        Ensure your app works with VoiceOver (iOS) and TalkBack (Android)
                                     </p>
                                 </div>
                             </div>
@@ -598,10 +615,9 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Heading
-                                        Hierarchy</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Touch Target Size</h4>
                                     <p className="text-gray-700 dark:text-gray-300">
-                                        Maintain proper heading levels (h1-h6) to create a logical document outline
+                                        Make interactive elements at least 44x44 points for easy tapping
                                     </p>
                                 </div>
                             </div>
@@ -620,10 +636,9 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Alt Text for
-                                        Images</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Content Descriptions</h4>
                                     <p className="text-gray-700 dark:text-gray-300">
-                                        Provide descriptive alternative text for all meaningful images
+                                        Provide descriptive labels for all UI elements and images
                                     </p>
                                 </div>
                             </div>
@@ -644,7 +659,7 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Color Contrast
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Color Contrast
                                     </h4>
                                     <p className="text-gray-700 dark:text-gray-300">
                                         Ensure sufficient contrast between text and background colors
@@ -666,10 +681,9 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Keyboard
-                                        Navigation</h4>
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Alternative Input Methods</h4>
                                     <p className="text-gray-700 dark:text-gray-300">
-                                        Ensure all interactive elements are accessible via keyboard
+                                        Support voice control, switch control, and external keyboards
                                     </p>
                                 </div>
                             </div>
@@ -688,10 +702,10 @@ export default Counter;`} />
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">ARIA Attributes
+                                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Dynamic Text Sizing
                                     </h4>
                                     <p className="text-gray-700 dark:text-gray-300">
-                                        Use ARIA roles and properties when HTML semantics aren't sufficient
+                                        Support system font size settings for users with visual impairments
                                     </p>
                                 </div>
                             </div>
@@ -699,19 +713,17 @@ export default Counter;`} />
                     </div>
 
                     <div
-                        className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border-l-4 border-purple-500 mb-8">
+                        className="bg-transparent border-2 p-6 rounded-xl shadow-md border-l-4 border-purple-500 mb-8">
                         <div className="flex items-center mb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500 mr-2" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                     d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">WCAG Standards</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white pb-1">Platform Guidelines</h4>
                         </div>
                         <p className="text-gray-700 dark:text-gray-300">
-                            The Web Content Accessibility Guidelines (WCAG) provide detailed standards for making web
-                            content more accessible to people with disabilities. Aim for at least WCAG 2.1 Level AA
-                            compliance.
+                            Both Apple and Google provide detailed accessibility guidelines for mobile apps. Follow the Human Interface Guidelines (iOS) and Material Design Guidelines (Android) for platform-specific accessibility best practices.
                         </p>
                     </div>
                 </div>
@@ -729,14 +741,14 @@ export default Counter;`} />
                         <div
                             className="bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 p-8 rounded-2xl mb-8 border border-orange-100 dark:border-orange-800/30 shadow-md">
                             <p className="text-xl leading-relaxed mb-6 text-orange-900 dark:text-orange-200">
-                                Frontend development is a dynamic and evolving field that combines technical skills with
+                                Mobile development is a dynamic and evolving field that combines technical skills with
                                 creativity and user empathy. By mastering the core technologies, embracing modern
                                 frameworks,
                                 and following best practices for performance and accessibility, you can create engaging,
-                                interactive websites that provide exceptional user experiences.
+                                interactive mobile applications that provide exceptional user experiences.
                             </p>
                             <p className="text-xl leading-relaxed text-orange-900 dark:text-orange-200">
-                                As you continue your frontend development journey, remember that the learning never stops.
+                                As you continue your mobile development journey, remember that the learning never stops.
                                 Stay
                                 curious, keep experimenting, and always consider the end user in your design and development
                                 decisions.
@@ -749,7 +761,7 @@ export default Counter;`} />
                             className="flex-1 bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                             <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Keep Learning</h4>
                             <p className="text-gray-700 dark:text-gray-300">
-                                The frontend landscape evolves rapidly. Stay updated with the latest trends, tools, and
+                                The mobile development landscape evolves rapidly. Stay updated with the latest trends, tools, and
                                 best practices.
                             </p>
                         </div>
@@ -786,7 +798,7 @@ export default Counter;`} />
                         <div className="relative z-10">
                             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-white pb-4">Ready to Start Building?</h3>
                             <p className="text-base md:text-lg lg:text-xl text-white/90 pb-6 md:pb-8 max-w-2xl">
-                                Take your frontend development skills to the next level with our comprehensive resources,
+                                Take your mobile development skills to the next level with our comprehensive resources,
                                 tutorials, and community support.
                             </p>
 
@@ -854,15 +866,15 @@ export default Counter;`} />
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.4 }}
                             >
-                                Enhance your frontend development skills with these hand-picked video tutorials
+                                Enhance your mobile development skills with these hand-picked video tutorials
                                 covering essential concepts and techniques.
                             </motion.p>
                         </div>
                     </div>
 
-                    {/* Video Grid - Reduced to 4 cards, 2 per row */}
+                    {/* Video Grid - Mobile Development Videos */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                        {/* Video 1 */}
+                        {/* Video 1: Flutter Tutorial */}
                         <motion.div
                             className="relative aspect-video rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out group"
                             whileHover={{ borderColor: "orange" }}
@@ -870,81 +882,72 @@ export default Counter;`} />
                             {/* Video Embed */}
                             <div className="absolute inset-0 z-0">
                                 <iframe
-                                    src="https://www.youtube.com/embed/3JluqTojuME"
-                                    title="HTML, CSS, JavaScript Explained"
+                                    src="https://www.youtube.com/embed/1ukSR1GRtMU"
+                                    title="Flutter Tutorial for Beginners"
                                     className="w-full h-full object-cover"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
                             </div>
-
-
                         </motion.div>
 
-                        {/* Video 2 */}
-                        <motion.div
-                            className="relative aspect-video rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out group"
-                            whileHover={{ borderColor: "orange" }}
-
-                        >
-                            <div className="absolute inset-0 z-0">
-                                <iframe
-                                    src="https://www.youtube.com/embed/qz0aGYrrlhU"
-                                    title="HTML Tutorial for Beginners"
-                                    className="w-full h-full object-cover"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-
-
-                        </motion.div>
-
-                        {/* Video 3 */}
+                        {/* Video 2: React Native Tutorial */}
                         <motion.div
                             className="relative aspect-video rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out group"
                             whileHover={{ borderColor: "orange" }}
                         >
                             <div className="absolute inset-0 z-0">
                                 <iframe
-                                    src="https://www.youtube.com/embed/W6NZfCO5SIk"
-                                    title="JavaScript Tutorial for Beginners"
+                                    src="https://www.youtube.com/embed/0-S5a0eXPoc"
+                                    title="React Native Tutorial for Beginners"
                                     className="w-full h-full object-cover"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
                             </div>
-
-
                         </motion.div>
 
-                        {/* Video 4 */}
+                        {/* Video 3: Swift Tutorial */}
                         <motion.div
                             className="relative aspect-video rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out group"
                             whileHover={{ borderColor: "orange" }}
-
                         >
                             <div className="absolute inset-0 z-0">
                                 <iframe
-                                    src="https://www.youtube.com/embed/1Rs2ND1ryYc"
-                                    title="CSS Crash Course"
+                                    src="https://www.youtube.com/embed/comQ1-x2a1Q"
+                                    title="Swift Tutorial for iOS Development"
                                     className="w-full h-full object-cover"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
                             </div>
+                        </motion.div>
 
+                        {/* Video 4: Kotlin Android Tutorial */}
+                        <motion.div
+                            className="relative aspect-video rounded-xl overflow-hidden cursor-pointer border-2 border-gray-200 dark:border-gray-800 transition-colors duration-300 ease-in-out group"
+                            whileHover={{ borderColor: "orange" }}
+                        >
+                            <div className="absolute inset-0 z-0">
+                                <iframe
+                                    src="https://www.youtube.com/embed/F9UC9DY-vIU"
+                                    title="Kotlin Android Development Tutorial"
+                                    className="w-full h-full object-cover"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                         </motion.div>
                     </div>
 
                     {/* Additional CTA for videos */}
                     <div className="mt-12 text-center">
                         <a
-                            href="https://www.youtube.com/results?search_query=frontend+development+tutorial"
+                            href="https://www.youtube.com/results?search_query=mobile+development+tutorial"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 bg-red-600 text-white font-medium rounded-lg hover:bg-red-700 transition-colors duration-300 shadow-md"
@@ -964,4 +967,4 @@ export default Counter;`} />
 );
 };
 
-export default FrontendArticle;
+export default MobileArticle;

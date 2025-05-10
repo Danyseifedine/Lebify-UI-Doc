@@ -186,8 +186,8 @@ export default {
 }
 </script>`} />
                             </div>
-                            </div>
                         </div>
+                    </div>
 
                     {/* Angular Section */}
                     <div className="prose prose-lg md:prose-xl dark:prose-invert max-w-none mb-12 md:mb-20">
@@ -360,8 +360,8 @@ export class DataListComponent implements OnInit {
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 md:h-8 md:w-8 text-orange-500"
                                         viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M5.41 4.59L10 0l10 10-10 10-4.59-4.59L10.83 10 5.41 4.59z" />
-                                </svg>
-                            </div>
+                                    </svg>
+                                </div>
                                 <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
                                     Key Features
                                 </h3>
@@ -390,7 +390,7 @@ export class DataListComponent implements OnInit {
   <button on:click={increment}>
     Increment
   </button>
-                        </div>
+</div>
 
 <style>
   div {
@@ -421,12 +421,12 @@ export class DataListComponent implements OnInit {
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
+                                    </svg>
+                                </div>
                                 <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
                                     Reactivity & Stores
                                 </h3>
-                        </div>
+                            </div>
                             <p className="text-lg md:text-xl leading-relaxed mb-6">
                                 Svelte's reactivity system is based on simple variable assignments. For shared state across components,
                                 Svelte provides stores, which are objects with a subscribe method.
@@ -469,12 +469,12 @@ export const count = writable(0);
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </div>
+                                    </svg>
+                                </div>
                                 <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
                                     Built-in Transitions
                                 </h3>
-                        </div>
+                            </div>
                             <p className="text-lg md:text-xl leading-relaxed mb-6">
                                 One of Svelte's standout features is its built-in transition system, which makes adding animations
                                 to your UI elements simple and declarative.
@@ -501,7 +501,7 @@ export const count = writable(0);
     class="box"
   >
     Animated content
-                        </div>
+  </div>
 {/if}
 
 <style>
@@ -607,16 +607,16 @@ export const count = writable(0);
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                             {/* Solid.js Card */}
                             <div className="bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                            <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                                     <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600"
                                             viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2z" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Solid.js</h3>
-                            </div>
-                            <p className="text-gray-700 dark:text-gray-300 mb-4">
+                                </div>
+                                <p className="text-gray-700 dark:text-gray-300 mb-4">
                                     Combines React's JSX syntax with a fine-grained reactivity system similar to Vue's Composition API.
                                     Solid compiles away at build time, resulting in minimal runtime overhead.
                                 </p>
@@ -627,21 +627,21 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
-                        </div>
+                            </div>
 
                             {/* Preact Card */}
                             <div className="bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                            <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                                     <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600"
                                             viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z" />
                                             <path d="M13 7h-2v6h6v-2h-4z" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Preact</h3>
-                            </div>
-                            <p className="text-gray-700 dark:text-gray-300 mb-4">
+                                </div>
+                                <p className="text-gray-700 dark:text-gray-300 mb-4">
                                     A lightweight alternative to React with the same API, just 3KB in size. Perfect for
                                     performance-critical applications where every kilobyte matters.
                                     It's also a great choice for building small, fast web applications.
@@ -653,21 +653,21 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
-                    </div>
+                            </div>
 
                             {/* Lit Card */}
                             <div className="bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                        <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                                     <div className="w-10 h-10 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mr-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600"
                                             viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M12 15.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l8-2.909c.34-.124.72-.124 1.06 0l8 2.909a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
                                             <path d="M12 19.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l1.134-.412 7.396 2.689 7.396-2.689 1.134.412a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
                                             <path d="M12 11.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l8-2.909c.34-.124.72-.124 1.06 0l8 2.909a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
-                                </svg>
-                            </div>
+                                        </svg>
+                                    </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Lit</h3>
-                        </div>
+                                </div>
                                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                                     A lightweight library for building web components with a reactive, template-based approach.
                                     Great for creating reusable components that work in any framework or no framework at all.
@@ -689,9 +689,9 @@ export const count = writable(0);
                                             viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
                                         </svg>
-      </div>
+                                    </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Alpine.js</h3>
-                            </div>
+                                </div>
                                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                                     A minimal framework for composing JavaScript behavior in your markup. Think of it as jQuery
                                     for the modern web, but with reactive data binding inspired by Vue.
@@ -703,8 +703,8 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
+                            </div>
                         </div>
-                    </div>
 
                         {/* Future Trends */}
                         <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold pb-6 md:pb-8 text-gray-900 dark:text-white relative text-left md:text-left pt-10">Future Trends in <span className="text-orange-500">UI Development</span></h3>
@@ -719,9 +719,9 @@ export const count = writable(0);
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                    </svg>
-                                </div>
-    <div>
+                                        </svg>
+                                    </div>
+                                    <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Server Components
                                             <span className="ml-2 mt-1 sm:mt-0 text-xs bg-indigo-100 dark:bg-indigo-800/60 text-indigo-800 dark:text-indigo-200 py-0.5 px-2 rounded-full">Rising Trend</span>
@@ -730,15 +730,15 @@ export const count = writable(0);
                                             Frameworks like Next.js and Remix are blurring the line between client and server, allowing components
                                             to render on the server for improved performance and SEO.
                                         </p>
-    </div>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                    </svg>
-                                </div>
-      <div>
+                                        </svg>
+                                    </div>
+                                    <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Compile-Time Optimization
                                             <span className="ml-2 mt-1 sm:mt-0 text-xs bg-indigo-100 dark:bg-indigo-800/60 text-indigo-800 dark:text-indigo-200 py-0.5 px-2 rounded-full">Performance Focus</span>
@@ -747,14 +747,14 @@ export const count = writable(0);
                                             Following Svelte's lead, more frameworks are moving work from runtime to compile time,
                                             resulting in smaller bundles and better performance.
                                         </p>
-      </div>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Fine-Grained Reactivity
@@ -764,14 +764,14 @@ export const count = writable(0);
                                             More precise reactivity systems that update only what needs to be updated,
                                             minimizing unnecessary re-renders and improving performance.
                                         </p>
-    </div>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Web Components Integration
@@ -781,9 +781,9 @@ export const count = writable(0);
                                             Better integration with native Web Components, allowing for more interoperability
                                             between different frameworks and vanilla JavaScript.
                                         </p>
-                            </div>
-                            </li>
-                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
 
                         <p className="text-lg leading-relaxed">
@@ -826,8 +826,8 @@ export const count = writable(0);
                                         <p className="text-gray-700 dark:text-gray-300 mt-1 text-sm sm:text-base">
                                             Consider the specific needs of your project. Is it a small widget or a large enterprise application?
                                             Do you need strong typing? Is bundle size a critical concern?
-                                </p>
-                            </div>
+                                        </p>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="p-1 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
@@ -843,8 +843,8 @@ export const count = writable(0);
                                         <p className="text-gray-700 dark:text-gray-300 mt-1 text-sm sm:text-base">
                                             Your team's existing knowledge can significantly impact productivity. Sometimes it's better
                                             to use a framework your team already knows rather than introducing a learning curve.
-                                </p>
-                            </div>
+                                        </p>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="p-1 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
@@ -860,8 +860,8 @@ export const count = writable(0);
                                         <p className="text-gray-700 dark:text-gray-300 mt-1 text-sm sm:text-base">
                                             A robust ecosystem with libraries, tools, and community support can save development time
                                             and help solve problems more quickly.
-                                </p>
-                            </div>
+                                        </p>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="p-1 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
@@ -877,8 +877,8 @@ export const count = writable(0);
                                         <p className="text-gray-700 dark:text-gray-300 mt-1 text-sm sm:text-base">
                                             Consider who will maintain the project in the future and how stable the framework is.
                                             Frameworks backed by large companies or with strong communities tend to have longer lifespans.
-                                </p>
-                            </div>
+                                        </p>
+                                    </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="p-1 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
@@ -951,8 +951,8 @@ export const count = writable(0);
             </div>
         </section>
 
-       {/* Related Videos Section - Redesigned to match blog layout */}
-    <section className="py-12 md:py-20 bg-white dark:bg-black">
+        {/* Related Videos Section - Redesigned to match blog layout */}
+        <section className="py-12 md:py-20 bg-white dark:bg-black">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-6xl mx-auto">
                     {/* Hero-style header with image on left, text on right */}
@@ -976,7 +976,7 @@ export const count = writable(0);
                                     }}
                                 />
                             </motion.div>
-        </div>
+                        </div>
 
                         {/* Text on the right */}
                         <div className="w-full md:w-1/2">
@@ -998,8 +998,8 @@ export const count = writable(0);
                                 Explore these video tutorials to help you choose the right framework for your project.
                                 Learn about the pros and cons of popular options and find the perfect fit for your development needs.
                             </motion.p>
+                        </div>
                     </div>
-                </div>
 
                     {/* Video Grid - Reduced to 4 cards, 2 per row */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
@@ -1018,12 +1018,12 @@ export const count = writable(0);
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
-                    </div>
+                            </div>
                         </motion.div>
 
                         {/* Video 2 */}
                         <motion.div
-                                className="relative aspect-video rounded-xl overflow-hidden border-2 cursor-pointer transition-colors duration-300 ease-in-out group"
+                            className="relative aspect-video rounded-xl overflow-hidden border-2 cursor-pointer transition-colors duration-300 ease-in-out group"
                             whileHover={{ borderColor: "orange" }}
                         >
                             <div className="absolute inset-0 z-0">
@@ -1035,7 +1035,7 @@ export const count = writable(0);
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
-                </div>
+                            </div>
                         </motion.div>
 
                         {/* Video 3 */}
@@ -1052,7 +1052,7 @@ export const count = writable(0);
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
-                    </div>
+                            </div>
                         </motion.div>
 
                         {/* Video 4 */}
@@ -1069,9 +1069,9 @@ export const count = writable(0);
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
-                </div>
+                            </div>
                         </motion.div>
-                </div>
+                    </div>
 
                     {/* Additional CTA for videos */}
                     <div className="mt-12 text-center">
@@ -1083,7 +1083,7 @@ export const count = writable(0);
                         >
                             <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
-                        </svg>
+                            </svg>
                             Explore More About this Topic
                         </a>
                     </div>

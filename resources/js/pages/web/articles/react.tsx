@@ -240,7 +240,7 @@ function Clock() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
                                     </svg>
-                                </div>
+                    </div>
                                 <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white text-left md:text-left">
                                     Props and One-Way Data Flow
                                 </h3>
@@ -435,10 +435,10 @@ function UserProfile({ userId }) {
       <h2>{data.name}</h2>
       <p>Email: {data.email}</p>
       <p>Role: {data.role}</p>
-    </div>
+                            </div>
   );
 }`} />
-                    </div>
+                            </div>
                 </div>
             </div>
         </section>
@@ -461,16 +461,16 @@ function UserProfile({ userId }) {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                         {/* Compound Components */}
                         <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                            <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-500"
-                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Compound Components</h3>
-                            </div>
+                                </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-4">
                                 Compound components work together to form a complete UI. They share state implicitly and provide a more
                                 declarative and flexible API.
@@ -488,16 +488,16 @@ function UserProfile({ userId }) {
 
                         {/* Render Props */}
                         <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-                            <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                                 <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500"
-                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                    </svg>
-                                </div>
+                                        </svg>
+                                    </div>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Render Props</h3>
-                            </div>
+                                </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-4">
                                 A technique where a component receives a function as a prop that returns a React element, allowing
                                 component logic to be shared.
@@ -518,16 +518,16 @@ function UserProfile({ userId }) {
 
                     {/* Context API Example */}
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 mb-10">
-                        <div className="flex items-center mb-4">
+                                <div className="flex items-center mb-4">
                             <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-orange-500"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                </svg>
-                            </div>
+                                        </svg>
+                                    </div>
                             <h3 className="text-xl font-bold text-gray-900 dark:text-white">Context API</h3>
-                        </div>
+                                </div>
                         <p className="text-gray-700 dark:text-gray-300 mb-6">
                             React's Context API provides a way to share values like themes, user data, or language preferences
                             between components without explicitly passing props through every level of the component tree.
@@ -589,13 +589,13 @@ function App() {
         <main>
           {/* Other components that can access the theme */}
         </main>
-      </div>
+                            </div>
     </ThemeProvider>
   );
 }`} />
                             </div>
-                        </div>
-                    </div>
+                            </div>
+                            </div>
                 </div>
             </div>
         </section>
@@ -622,10 +622,10 @@ function App() {
                                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-500"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                             d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                    </svg>
-                                </div>
+                                </svg>
+                            </div>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Memoization with React.memo, useMemo, and useCallback</h3>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-6">
@@ -653,12 +653,12 @@ function App() {
   }, [count]); // Only recalculate when count changes
 
   return (
-    <div>
+                                <div>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <p>Count: {count}</p>
       <p>Expensive calculation: {expensiveCalculation}</p>
       <MemoizedComponent name="John" onClick={handleClick} />
-    </div>
+                                </div>
   );
 }`} />
                             </div>
@@ -675,7 +675,7 @@ function App() {
                                     </svg>
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Code Splitting with React.lazy and Suspense</h3>
-                            </div>
+                                </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-6">
                                 Code splitting allows you to split your code into smaller chunks that are loaded on demand,
                                 reducing the initial bundle size and improving load times.
@@ -695,7 +695,7 @@ const Settings = lazy(() => import('./Settings'));
 function App() {
   return (
     <Router>
-      <div>
+                                <div>
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -714,7 +714,7 @@ function App() {
             <Route path="/settings" component={Settings} />
           </Switch>
         </Suspense>
-      </div>
+                                </div>
     </Router>
   );
 }`} />
@@ -732,7 +732,7 @@ function App() {
                                     </svg>
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Virtualization for Long Lists</h3>
-                            </div>
+                                </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-6">
                                 When rendering large lists, virtualization techniques can dramatically improve performance by only
                                 rendering items that are currently visible in the viewport.
@@ -747,7 +747,7 @@ function VirtualizedList({ items }) {
   const Row = ({ index, style }) => (
     <div style={style} className={index % 2 ? 'ListItemOdd' : 'ListItemEven'}>
       {items[index].name}
-    </div>
+                                </div>
   );
 
   return (
@@ -771,10 +771,10 @@ function App() {
   }));
 
   return (
-    <div>
+                                <div>
       <h1>Virtualized List Example</h1>
       <VirtualizedList items={items} />
-    </div>
+                                </div>
   );
 }`} />
                             </div>
@@ -816,7 +816,7 @@ function App() {
                             <li className="flex items-start">
                                 <svg className="h-6 w-6 text-orange-500 mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
+                            </svg>
                                 <span className="text-orange-900 dark:text-orange-200">Keep component state as local as possible to minimize re-renders</span>
                             </li>
                             <li className="flex items-start">
@@ -869,31 +869,31 @@ function App() {
                                     A new architecture that allows components to render on the server, reducing bundle size and improving performance
                                     by keeping some components entirely on the server.
                                 </p>
-                            </div>
+                </div>
 
                             <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border border-purple-100 dark:border-purple-800">
                                 <h3 className="text-xl font-bold text-purple-800 dark:text-purple-300 pb-3">Concurrent Features</h3>
-                                <p className="text-gray-700 dark:text-gray-300">
+                    <p className="text-gray-700 dark:text-gray-300">
                                     New rendering capabilities that allow React to prepare multiple versions of the UI at the same time,
                                     making apps more responsive and fluid.
-                                </p>
-                            </div>
+                    </p>
+                </div>
 
                             <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl border border-green-100 dark:border-green-800">
                                 <h3 className="text-xl font-bold text-green-800 dark:text-green-300 pb-3">Automatic Batching</h3>
-                                <p className="text-gray-700 dark:text-gray-300">
+                    <p className="text-gray-700 dark:text-gray-300">
                                     Improved state update batching that groups multiple state updates into a single render pass,
                                     reducing unnecessary re-renders and improving performance.
-                                </p>
-                            </div>
+                    </p>
+                </div>
 
                             <div className="bg-orange-50 dark:bg-orange-900/20 p-6 rounded-xl border border-orange-100 dark:border-orange-800">
                                 <h3 className="text-xl font-bold text-orange-800 dark:text-orange-300 pb-3">Suspense for Data Fetching</h3>
-                                <p className="text-gray-700 dark:text-gray-300">
+                    <p className="text-gray-700 dark:text-gray-300">
                                     A mechanism for declaratively specifying loading states while components wait for data,
                                     making asynchronous operations more intuitive.
-                                </p>
-                            </div>
+                    </p>
+                </div>
                         </div>
 
                         <p className="text-lg md:text-xl leading-relaxed mb-6">
@@ -907,8 +907,8 @@ function App() {
                             the tools and patterns needed to create maintainable, performant user interfaces. By understanding its
                             core concepts and best practices, you'll be well-equipped to leverage React's power in your projects.
                         </p>
-                    </div>
-                </div>
+            </div>
+        </div>
             </div>
         </section>
 
@@ -939,7 +939,7 @@ function App() {
                         </svg>
                                 </Link>
 
-                            
+
                     </div>
                 </div>
                     </div>

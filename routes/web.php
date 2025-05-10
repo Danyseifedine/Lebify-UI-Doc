@@ -27,6 +27,18 @@ Route::prefix('blog')->name('blog.')->group(function () {
     Route::get('/other-libraries', function () {
         return Inertia::render('web/articles/otherLibraries');
     })->name('other-libraries');
+
+    Route::get('/backend', function () {
+        return Inertia::render('web/articles/backend');
+    })->name('backend');
+
+    Route::get('/laravel', function () {
+        return Inertia::render('web/articles/laravel');
+    })->name('laravel');
+
+    Route::get('/mobile', function () {
+        return Inertia::render('web/articles/mobile');
+    })->name('mobile');
 });
 
 Route::prefix('docs')->name('doc.')->group(function () {
