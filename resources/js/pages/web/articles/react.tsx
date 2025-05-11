@@ -63,7 +63,7 @@ return (
                         </p>
 
                         {/* Components Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -102,7 +102,7 @@ function App() {
                         </div>
 
                         {/* JSX Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -143,7 +143,7 @@ const element = (
                         </div>
 
                         {/* Virtual DOM Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -184,7 +184,7 @@ ReactDOM.render(
                         </div>
 
                         {/* State and Lifecycle Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -231,7 +231,7 @@ function Clock() {
                         </div>
 
                         {/* Props and Data Flow Section with icon */}
-                        <div className="bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -460,7 +460,7 @@ function UserProfile({ userId }) {
                     {/* Component patterns grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                         {/* Compound Components */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                                 <div className="flex items-center mb-4">
                                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-500"
@@ -475,7 +475,7 @@ function UserProfile({ userId }) {
                                 Compound components work together to form a complete UI. They share state implicitly and provide a more
                                 declarative and flexible API.
                             </p>
-                            <div className="mt-4 text-sm bg-gray-50 dark:bg-gray-900 p-4 rounded-lg overflow-x-auto">
+                            <div className="mt-4 text-sm bg-transparent border-2 p-4 rounded-lg overflow-x-auto">
                                 <pre className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap break-words">
 {`<Tabs>
   <Tab label="Profile">Profile content</Tab>
@@ -487,7 +487,7 @@ function UserProfile({ userId }) {
                         </div>
 
                         {/* Render Props */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                                 <div className="flex items-center mb-4">
                                 <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500"
@@ -502,7 +502,7 @@ function UserProfile({ userId }) {
                                 A technique where a component receives a function as a prop that returns a React element, allowing
                                 component logic to be shared.
                             </p>
-                            <div className="mt-4 text-sm bg-gray-50 dark:bg-gray-900 p-4 rounded-lg overflow-x-auto">
+                            <div className="mt-4 text-sm bg-transparent border-2 p-4 rounded-lg overflow-x-auto">
                                 <pre className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap break-words">
 {`<DataFetcher url="/api/data">
   {(data, loading, error) => (
@@ -517,7 +517,7 @@ function UserProfile({ userId }) {
                     </div>
 
                     {/* Context API Example */}
-                    <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 mb-10">
+                    <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 mb-10">
                                 <div className="flex items-center mb-4">
                             <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-orange-500"
@@ -617,7 +617,7 @@ function App() {
                     {/* Performance optimization techniques */}
                     <div className="space-y-12">
                         {/* Memoization */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                             <div className="flex items-center mb-6">
                                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-500"
@@ -665,7 +665,7 @@ function App() {
                         </div>
 
                         {/* Code Splitting */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                             <div className="flex items-center mb-6">
                                 <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500"
@@ -722,7 +722,7 @@ function App() {
                         </div>
 
                         {/* Virtualization */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                             <div className="flex items-center mb-6">
                                 <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500"
@@ -781,7 +781,7 @@ function App() {
                         </div>
 
                         {/* Profiling and Debugging */}
-                        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        <div className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                             <div className="flex items-center mb-6">
                                 <div className="w-12 h-12 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-500"
@@ -796,7 +796,7 @@ function App() {
                                 React provides built-in tools for profiling and debugging your application's performance. The React DevTools
                                 extension includes a Profiler that can record performance information.
                             </p>
-                            <div className="mt-4 bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
+                            <div className="mt-4 bg-transparent border-2 p-6 rounded-lg">
                                 <h4 className="font-semibold text-gray-900 dark:text-white pb-4">Key Performance Tools:</h4>
                                 <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
                                     <li><strong>React DevTools Profiler</strong> - Visualize which components are rendering and how long they take</li>

@@ -75,7 +75,7 @@ return (
                                 Native mobile development involves building apps specifically for a single platform using the platform's core programming language and APIs. This approach offers the best performance and access to all device features.
                             </p>
                             <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
-                                <CodeBlock language="swift" code={`// iOS - Swift example
+                                <CodeBlock language="javascript" code={`// iOS - Swift example
 import UIKit
 
 class ViewController: UIViewController {
@@ -109,7 +109,7 @@ class ViewController: UIViewController {
                             </div>
 
                             <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
-                                <CodeBlock language="kotlin" code={`// Android - Kotlin example
+                            <CodeBlock language="javascript" code={`// Android - Kotlin example
 package com.example.myapp
 
 import android.os.Bundle
@@ -151,7 +151,7 @@ class MainActivity : AppCompatActivity() {
                                 Cross-platform development involves building apps using frameworks that allow code reuse across multiple platforms. This approach can save time and resources but may have limitations in terms of performance and feature access.
                             </p>
                             <div className="mt-8 shadow-lg rounded-xl overflow-hidden">
-                                <CodeBlock language="react" code={`// React Native example
+                                <CodeBlock language="javascript" code={`// React Native example
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';
 

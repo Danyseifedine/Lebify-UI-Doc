@@ -110,7 +110,7 @@ return (
                         </div>
 
                         {/* CSS Section with icon */}
-                        <div className="mb-8 md:mb-12 bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className="mb-8 md:mb-12 bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -151,7 +151,7 @@ return (
                         </div>
 
                         {/* JavaScript Section with icon */}
-                        <div className=" bg-gray-50 dark:bg-gray-900 p-4 md:p-8 rounded-2xl">
+                        <div className=" bg-transparent border-2 p-4 md:p-8 rounded-2xl">
                             <div className="flex flex-col md:flex-row md:items-center mb-4 md:mb-6">
                                 <div
                                     className="w-12 h-12 md:w-16 md:h-16 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6">
@@ -308,7 +308,7 @@ export default Counter;`} />
 
                     {/* Responsive design illustration */}
                     <div
-                        className="my-10 flex flex-col md:flex-row items-center justify-center gap-6 bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
+                        className="my-10 flex flex-col md:flex-row items-center justify-center gap-6 bg-transparent border-2 p-8 rounded-2xl">
                         <div className="w-full md:w-1/3 flex justify-center">
                             <div
                                 className="w-20 h-40 border-4 border-gray-300 dark:border-gray-700 rounded-xl relative">
@@ -397,12 +397,12 @@ export default Counter;`} />
                     </div>
 
                     {/* Performance metrics visualization */}
-                    <div className="my-10 bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
+                    <div className="my-10 bg-transparent border-2 p-8 rounded-2xl">
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white pb-6">Key Performance <span
                                 className="text-orange-500">Metrics</span>
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
@@ -419,7 +419,7 @@ export default Counter;`} />
                                     Measures how long it takes for the first content to appear on screen
                                 </p>
                             </div>
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-4">
@@ -436,7 +436,7 @@ export default Counter;`} />
                                     Measures when the page becomes fully interactive for the user
                                 </p>
                             </div>
-                            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                            <div className="bg-transparent border-2 p-6 rounded-xl shadow-md">
                                 <div className="flex items-center mb-4">
                                     <div
                                         className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-4">
@@ -499,7 +499,7 @@ export default Counter;`} />
                     </ul>
 
                     <div
-                        className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+                        className="bg-transparent border-2 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
                         <div className="flex items-center mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-orange-500 mr-2" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
@@ -699,7 +699,7 @@ export default Counter;`} />
                     </div>
 
                     <div
-                        className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border-l-4 border-purple-500 mb-8">
+                        className="bg-transparent border-2 p-6 rounded-xl shadow-md border-l-4 border-purple-500 mb-8">
                         <div className="flex items-center mb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-500 mr-2" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
