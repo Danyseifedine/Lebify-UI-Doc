@@ -526,9 +526,9 @@ export const count = writable(0);
     cursor: pointer;
   }
 </style>`} />
-                            </div>
-                        </div>
+    </div>
                     </div>
+                </div>
 
                     {/* Framework Comparison */}
                     <div className="prose prose-lg md:prose-xl dark:prose-invert max-w-none mb-12 md:mb-20">
@@ -558,18 +558,18 @@ export const count = writable(0);
                                                 <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
                                                     <svg viewBox="0 0 24 24" className="w-5 h-5 text-blue-600" fill="currentColor">
                                                         <path d="M12 9.861A2.139 2.139 0 1 0 12 14.139 2.139 2.139 0 1 0 12 9.861zM6.008 16.255l-.472-.12C2.018 15.246 0 13.737 0 11.996s2.018-3.25 5.536-4.139l.472-.119.133.468a23.53 23.53 0 0 0 1.363 3.578l.101.213-.101.213a23.307 23.307 0 0 0-1.363 3.578l-.133.467zM5.317 8.95c-2.674.751-4.315 1.9-4.315 3.046 0 1.145 1.641 2.294 4.315 3.046a24.95 24.95 0 0 1 1.182-3.046A24.752 24.752 0 0 1 5.317 8.95zM17.992 16.255l-.133-.469a23.357 23.357 0 0 0-1.364-3.577l-.101-.213.101-.213a23.42 23.42 0 0 0 1.364-3.578l.133-.468.473.119c3.517.889 5.535 2.398 5.535 4.14s-2.018 3.25-5.535 4.139l-.473.12zm-.491-4.259c.48 1.039.877 2.06 1.182 3.046 2.675-.752 4.315-1.901 4.315-3.046 0-1.146-1.641-2.294-4.315-3.046a24.788 24.788 0 0 1-1.182 3.046zM5.31 8.945l-.133-.467C4.188 4.992 4.488 2.494 6 1.622c1.483-.856 3.864.155 6.359 2.716l.34.349-.34.349a23.552 23.552 0 0 0-2.422 2.967l-.135.193-.235.02a23.657 23.657 0 0 0-3.785.61l-.472.119zm1.896-6.63c-.268 0-.505.058-.705.173-.994.573-1.17 2.565-.485 5.253a25.122 25.122 0 0 1 3.233-.501 24.847 24.847 0 0 1 2.052-2.544c-1.56-1.519-3.037-2.381-4.095-2.381zM16.795 22.677c-.001 0-.001 0 0 0-1.425 0-3.255-1.073-5.154-3.023l-.34-.349.34-.349a23.53 23.53 0 0 0 2.421-2.968l.135-.193.234-.02a23.63 23.63 0 0 0 3.787-.609l.472-.119.134.468c.987 3.484.688 5.983-.824 6.854a2.38 2.38 0 0 1-1.205.308zm-4.096-3.381c1.56 1.519 3.037 2.381 4.095 2.381h.001c.267 0 .505-.058.704-.173.994-.573 1.171-2.566.485-5.254a25.02 25.02 0 0 1-3.234.501 24.674 24.674 0 0 1-2.051 2.545zM18.69 8.945l-.472-.119a23.479 23.479 0 0 0-3.787-.61l-.234-.02-.135-.193a23.414 23.414 0 0 0-2.421-2.967l-.34-.349.34-.349C14.135 1.778 16.515.767 18 1.622c1.512.872 1.812 3.37.824 6.855l-.134.468zM14.75 7.24c1.142.104 2.227.273 3.234.501.686-2.688.509-4.68-.485-5.253-.988-.571-2.845.304-4.8 2.208A24.849 24.849 0 0 1 14.75 7.24zM7.206 22.677A2.38 2.38 0 0 1 6 22.369c-1.512-.871-1.812-3.369-.823-6.854l.132-.468.472.119c1.155.291 2.429.496 3.785.609l.235.02.134.193a23.596 23.596 0 0 0 2.422 2.968l.34.349-.34.349c-1.898 1.95-3.728 3.023-5.151 3.023zm-1.19-6.427c-.686 2.688-.509 4.681.485 5.254.987.563 2.843-.305 4.8-2.208a24.998 24.998 0 0 1-2.052-2.545 24.976 24.976 0 0 1-3.233-.501zM12 16.878c-.823 0-1.669-.036-2.516-.106l-.235-.02-.135-.193a30.388 30.388 0 0 1-1.35-2.122 30.354 30.354 0 0 1-1.166-2.228l-.1-.213.1-.213a30.3 30.3 0 0 1 1.166-2.228c.414-.716.869-1.43 1.35-2.122l.135-.193.235-.02a29.785 29.785 0 0 1 5.033 0l.234.02.134.193a30.006 30.006 0 0 1 2.517 4.35l.101.213-.101.213a29.6 29.6 0 0 1-2.517 4.35l-.134.193-.234.02c-.847.07-1.694.106-2.517.106zm-2.197-1.084c1.48.111 2.914.111 4.395 0a29.006 29.006 0 0 0 2.196-3.798 28.585 28.585 0 0 0-2.197-3.798 29.031 29.031 0 0 0-4.394 0 28.477 28.477 0 0 0-2.197 3.798 29.114 29.114 0 0 0 2.197 3.798z" />
-                                                    </svg>
-                                                </div>
+                                    </svg>
+                                </div>
                                                 <span>React</span>
-                                            </div>
+                            </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
                                                 <div className="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-2">
                                                     <div className="bg-yellow-500 h-2.5 rounded-full" style={{ width: '65%' }}></div>
-                                                </div>
+                            </div>
                                                 <span>Moderate</span>
-                                            </div>
+                        </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
@@ -587,24 +587,24 @@ export const count = writable(0);
                                                 <div className="w-8 h-8 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-3">
                                                     <svg viewBox="0 0 24 24" className="w-5 h-5 text-green-600" fill="currentColor">
                                                         <path d="M24 1.61h-9.94L12 5.16 9.94 1.61H0l12 20.78z M12 14.08L5.16 2.23h4.43L12 6.41l2.41-4.18h4.43z" />
-                                                    </svg>
-                                                </div>
+                                    </svg>
+                                </div>
                                                 <span>Vue.js</span>
-                                            </div>
+                            </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
                                                 <div className="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-2">
                                                     <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '85%' }}></div>
-                                                </div>
+                            </div>
                                                 <span>Easy</span>
-                                            </div>
+                        </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
                                                 <div className="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-2">
                                                     <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '85%' }}></div>
-                                                </div>
+                    </div>
                                                 <span>Very Good</span>
                                             </div>
                                         </td>
@@ -616,26 +616,26 @@ export const count = writable(0);
                                                 <div className="w-8 h-8 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mr-3">
                                                     <svg viewBox="0 0 24 24" className="w-5 h-5 text-red-600" fill="currentColor">
                                                         <path d="M9.93 12.645h4.134L11.996 7.74M11.996.009L.686 3.988l1.725 14.76 9.585 5.243 9.588-5.238L23.308 3.99 11.996.01zm7.058 18.297h-2.636l-1.42-3.501H8.995l-1.42 3.501H4.937l7.06-15.648 7.057 15.648z" />
-                                                    </svg>
-                                                </div>
+                                </svg>
+                            </div>
                                                 <span>Angular</span>
-                                            </div>
+                        </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
                                                 <div className="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-2">
                                                     <div className="bg-red-500 h-2.5 rounded-full" style={{ width: '40%' }}></div>
-                                                </div>
+      </div>
                                                 <span>Steep</span>
-                                            </div>
+                            </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">
                                             <div className="flex items-center">
                                                 <div className="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-2">
                                                     <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '85%' }}></div>
-                                                </div>
+                        </div>
                                                 <span>Very Good</span>
-                                            </div>
+                    </div>
                                         </td>
                                         <td className="py-4 px-6 text-gray-800 dark:text-gray-200">Enterprise applications, large teams with TypeScript</td>
                                     </tr>
@@ -730,7 +730,7 @@ export const count = writable(0);
                                             <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z" />
                                             <path d="M13 7h-2v6h6v-2h-4z" />
                                     </svg>
-                                </div>
+    </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Preact</h3>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -745,7 +745,7 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
-                    </div>
+                        </div>
 
                             {/* Lit Card */}
                             <div className="bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
@@ -756,10 +756,10 @@ export const count = writable(0);
                                             <path d="M12 15.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l8-2.909c.34-.124.72-.124 1.06 0l8 2.909a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
                                             <path d="M12 19.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l1.134-.412 7.396 2.689 7.396-2.689 1.134.412a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
                                             <path d="M12 11.575c-.183 0-.36-.031-.53-.093l-8-2.909a1.002 1.002 0 0 1 0-1.855l8-2.909c.34-.124.72-.124 1.06 0l8 2.909a1.002 1.002 0 0 1 0 1.855l-8 2.909c-.17.062-.347.093-.53.093z" />
-                                </svg>
-                            </div>
+                                    </svg>
+                                </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Lit</h3>
-                        </div>
+                            </div>
                                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                                     A lightweight library for building web components with a reactive, template-based approach.
                                     Great for creating reusable components that work in any framework or no framework at all.
@@ -771,7 +771,7 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
-                            </div>
+                        </div>
 
                             {/* Alpine.js Card */}
                             <div className="bg-transparent p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
@@ -780,8 +780,8 @@ export const count = writable(0);
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600"
                                             viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
-                                        </svg>
-      </div>
+                                    </svg>
+                                </div>
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">Alpine.js</h3>
                             </div>
                                 <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -795,7 +795,7 @@ export const count = writable(0);
                                         <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
                                 </a>
-                        </div>
+    </div>
                     </div>
 
                         {/* Future Trends */}
@@ -829,7 +829,7 @@ export const count = writable(0);
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                     </svg>
-                                </div>
+                            </div>
       <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Compile-Time Optimization
@@ -839,7 +839,7 @@ export const count = writable(0);
                                             Following Svelte's lead, more frameworks are moving work from runtime to compile time,
                                             resulting in smaller bundles and better performance.
                                         </p>
-      </div>
+                        </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
@@ -856,14 +856,14 @@ export const count = writable(0);
                                             More precise reactivity systems that update only what needs to be updated,
                                             minimizing unnecessary re-renders and improving performance.
                                         </p>
-    </div>
+                            </div>
                                 </li>
                                 <li className="flex items-start transform transition-all duration-300 hover:translate-x-1">
                                     <div className="bg-indigo-100 dark:bg-indigo-800/40 p-1.5 sm:p-2 rounded-lg mr-2 sm:mr-3 flex-shrink-0">
                                         <svg className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                                     </svg>
-                                </div>
+                        </div>
                                     <div>
                                         <strong className="text-indigo-900 dark:text-indigo-300 font-medium text-base sm:text-lg flex flex-wrap items-center">
                                             Web Components Integration
@@ -873,7 +873,7 @@ export const count = writable(0);
                                             Better integration with native Web Components, allowing for more interoperability
                                             between different frameworks and vanilla JavaScript.
                                         </p>
-                            </div>
+                    </div>
                             </li>
                         </ul>
                         </div>

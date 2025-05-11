@@ -266,7 +266,7 @@ LIMIT 10;`} />
                             <p className="text-gray-700 dark:text-gray-300">
                                 A web application framework that includes everything needed to create database-backed web applications
                             </p>
-                    </div>
+                        </div>
 
                         {/* ASP.NET Core Card */}
                         <div
@@ -282,7 +282,7 @@ LIMIT 10;`} />
                             <p className="text-gray-700 dark:text-gray-300">
                                 A cross-platform, high-performance framework for building modern, cloud-based, Internet-connected applications
                             </p>
-                        </div>
+                    </div>
 
                         {/* Django Card */}
                         <div
@@ -294,7 +294,7 @@ LIMIT 10;`} />
                                         d="M11.146 0h3.924v18.166c-2.013.382-3.491.535-5.096.535-4.791 0-7.288-2.166-7.288-6.32 0-4.002 2.65-6.6 6.753-6.6.637 0 1.121.05 1.707.203zm0 9.143a3.894 3.894 0 00-1.325-.204c-1.988 0-3.134 1.223-3.134 3.365 0 2.09 1.096 3.236 3.109 3.236.433 0 .79-.025 1.35-.102V9.142zM21.314 6.06v9.098c0 3.134-.229 4.638-.917 5.937-.637 1.249-1.478 2.039-3.211 2.905l-3.644-1.733c1.733-.815 2.574-1.53 3.109-2.625.561-1.121.739-2.421.739-5.835V6.059h3.924zM17.39.021h3.924v4.026H17.39z" />
                                 </svg>
                                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Django</h3>
-                            </div>
+                        </div>
                             <p className="text-gray-700 dark:text-gray-300">
                                 A high-level Python web framework that encourages rapid development and clean, pragmatic design
                             </p>
@@ -403,15 +403,15 @@ app.listen(port, () => {
                             </div>
                             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white relative m-0">
                                 APIs and <span className="text-orange-500">RESTful Services</span>
-                            </h2>
+                        </h2>
                         </div>
 
                         <div className="bg-gradient-to-r from-orange-50 to-transparent dark:from-orange-900/10 dark:to-transparent p-6 rounded-xl border-l-4 border-orange-500 mb-10">
                             <p className="text-lg md:text-xl leading-relaxed m-0">
                                 APIs (Application Programming Interfaces) are the backbone of modern web applications, allowing different systems to communicate with each other.
                                 RESTful APIs are a popular architectural style for designing networked applications.
-                            </p>
-                        </div>
+                        </p>
+                    </div>
 
                         {/* REST API Methods Table */}
                         <div className="overflow-x-auto mb-10 shadow-xl rounded-xl">
@@ -451,7 +451,7 @@ app.listen(port, () => {
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                    </div>
 
                         {/* API Example */}
                         <div className="bg-gradient-to-br from-orange-50 to-white dark:from-gray-800/50 dark:to-black p-8 rounded-xl shadow-lg border border-orange-200 dark:border-orange-900/30">
@@ -512,8 +512,8 @@ app.listen(port, () => {
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-                    </div>
+                            </div>
+                            </div>
                 </div>
             </div>
         </section>
@@ -841,7 +841,7 @@ app.listen(port, () => {
         </section>
 
          {/* Backend Architectures Section */}
-         <section className="bg-white dark:bg-black">
+        <section className="bg-white dark:bg-black">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto">
                     <div className="prose prose-lg md:prose-xl dark:prose-invert max-w-none mb-12 md:mb-20">
@@ -882,7 +882,7 @@ app.listen(port, () => {
                                         <li>Less operational complexity</li>
                                         <li>Better performance for small applications</li>
                                     </ul>
-                                </div>
+                        </div>
                                 <div className="bg-white dark:bg-gray-800/50 border border-red-200 dark:border-red-800/30 p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                                     <h4 className="font-bold text-red-600 dark:text-red-400 pb-2 flex items-center">
                                         <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -896,7 +896,7 @@ app.listen(port, () => {
                                         <li>Technology stack is fixed for the entire application</li>
                                         <li>More difficult for large teams to collaborate</li>
                                     </ul>
-                                </div>
+                    </div>
                             </div>
                             <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-500">
                                 <p className="text-gray-700 dark:text-gray-300 text-lg">
@@ -935,7 +935,7 @@ app.listen(port, () => {
                                         <li>Better fault isolation</li>
                                         <li>Easier for large teams to collaborate</li>
                                     </ul>
-                                </div>
+                        </div>
                                 <div className="bg-white dark:bg-gray-800/50 border border-red-200 dark:border-red-800/30 p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                                     <h4 className="font-bold text-red-600 dark:text-red-400 pb-2 flex items-center">
                                         <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1051,7 +1051,7 @@ app.listen(port, () => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
                                         Advantages
-                                    </h4>
+                            </h4>
                                     <ul className="list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
                                         <li>No server management</li>
                                         <li>Pay-per-execution pricing</li>

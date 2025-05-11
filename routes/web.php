@@ -15,6 +15,8 @@ Route::get('/contributors', function () {
     return Inertia::render('web/contributors');
 })->name('contributors');
 
+
+
 Route::prefix('blog')->name('blog.')->group(function () {
     Route::get('/frontend-development', function () {
         return Inertia::render('web/articles/frontend');
