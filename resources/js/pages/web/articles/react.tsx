@@ -968,7 +968,7 @@ function App() {
                                     onError={(e) => {
                                         // Fallback if the YouTube icon is not available
                                         const target = e.target as HTMLImageElement;
-                                        target.src = "/assets/images/Leb-icon.png";
+                                        target.src = "/assets/images/leb-icon.png";
                                     }}
                                 />
                             </motion.div>

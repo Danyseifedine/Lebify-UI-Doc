@@ -28,7 +28,7 @@ const [hoveredPost, setHoveredPost] = useState<number | null>(null);
                         <div className="w-full md:w-1/2">
                             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6 }} className="rounded-xl overflow-hidden max-w-md mx-auto">
-                                <img src="/assets/images/Leb-icon.png" alt="Blog Hero"
+                                <img src="/assets/images/leb-icon.png" alt="Blog Hero"
                                     className="w-full h-auto object-contain" />
                             </motion.div>
                         </div>

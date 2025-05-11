@@ -972,7 +972,7 @@ export const count = writable(0);
                                     onError={(e) => {
                                         // Fallback if the icon is not available
                                         const target = e.target as HTMLImageElement;
-                                        target.src = "/assets/images/Leb-icon.png";
+                                        target.src = "/assets/images/leb-icon.png";
                                     }}
                                 />
                             </motion.div>
