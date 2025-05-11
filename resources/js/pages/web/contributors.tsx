@@ -10,9 +10,9 @@ name: "Dany Seifeddine",
 position: "Founder of Lebify / Full-Stack Developer",
 image: "/assets/images/Dany.png",
 socials: {
-github: "https://github.com/DanySeifeddine",
-linkedin: "https://linkedin.com/in/dany-seifeddine",
-instagram: "https://instagram.com/dany_seifeddine"
+github: "https://github.com/Danyseifedine",
+linkedin: "https://www.linkedin.com/in/dany-seifeddine-ab6558247/",
+instagram: "https://www.instagram.com/danny__seifeddine/"
 }
 },
 
@@ -23,8 +23,8 @@ instagram: "https://instagram.com/dany_seifeddine"
     image: "/assets/images/Ahmad.jpeg",
     socials: {
     github: "https://github.com/AhmadSeifeddine",
-    linkedin: "https://linkedin.com/in/ahmad-seifeddine",
-    instagram: "https://instagram.com/ahmad_seifeddine"
+    linkedin: "https://www.linkedin.com/in/ahmad-seifeddine-332135340/",
+    instagram: "https://www.instagram.com/_ahmad_seif/"
     }
 },
 
@@ -34,7 +34,7 @@ instagram: "https://instagram.com/dany_seifeddine"
     position: "Full-stack Developer",
     image: "/assets/images/Hamzah.png",
     socials: {
-        github: "https://github.com/HamzahOwaidat",
+        github: "https://github.com/Hamzah-Owaidat",
         linkedin: "https://linkedin.com/in/hamzah-owaidat",
         instagram: "https://instagram.com/hamzah_owaidat"
     }
@@ -46,8 +46,8 @@ instagram: "https://instagram.com/dany_seifeddine"
     position: "Full-Stack Developer",
     image: "/assets/images/Rafeh.png",
     socials: {
-        github: "https://github.com/RafehSaayfan",
-        linkedin: "https://linkedin.com/in/rafeh-saayfan",
+        github: "https://github.com/rafeaaSaayfan",
+        linkedin: "https://www.linkedin.com/in/rafeh-saayfan-85019b2a2/",
         instagram: "https://instagram.com/rafeh_saayfan"
     }
 },
@@ -58,9 +58,9 @@ instagram: "https://instagram.com/dany_seifeddine"
     position: "IT Specialist",
     image: "/assets/images/Malih.png",
     socials: {
-        github: "https://github.com/malih",
-        linkedin: "https://linkedin.com/in/malih",
-        instagram: "https://instagram.com/malih"
+        github: "https://github.com/MalihChebbo/MalihChebbo",
+        linkedin: "https://www.linkedin.com/in/malih-chebbo/",
+        instagram: "https://www.instagram.com/malih__chebbo/"
     }
 },
 
@@ -72,7 +72,7 @@ instagram: "https://instagram.com/dany_seifeddine"
     socials: {
         github: "https://github.com/KhaledKahoul",
         linkedin: "https://linkedin.com/in/khaled-kahoul",
-        instagram: "https://instagram.com/khaled_kahoul"
+        instagram: "https://www.instagram.com/khaled_kahoul.1/"
     }
 }
 ];

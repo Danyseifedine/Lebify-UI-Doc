@@ -25,12 +25,12 @@ return (
                         >
                             Get Started
                         </Link>
-                        <Link
-                            href="https://github.com/your-repo"
+                        <a
+                            href="https://github.com/Danyseifedine/Lebify-UI" target="_blank"
                             className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
                             GitHub
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>

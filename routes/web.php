@@ -124,5 +124,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 });
 
+Route::post('/messages', [\App\Http\Controllers\MessageController::class, 'store'])->name('messages.store');
+
 require __DIR__ . '/settings.php';
 require __DIR__ . '/auth.php';
