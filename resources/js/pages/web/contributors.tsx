@@ -7,7 +7,7 @@ const contributors = [
 {
 id: 6,
 name: "Dany Seifeddine",
-position: "Founder of Lebify / Full-Stack Developer",
+position: "Founder of Lebify",
 image: "/assets/images/Dany.png",
 socials: {
 github: "https://github.com/Danyseifedine",
