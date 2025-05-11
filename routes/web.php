@@ -7,6 +7,42 @@ Route::get('/', function () {
     return Inertia::render('web/welcome');
 })->name('home');
 
+Route::get('/blog', function () {
+    return Inertia::render('web/blog');
+})->name('blog');
+
+Route::get('/contributors', function () {
+    return Inertia::render('web/contributors');
+})->name('contributors');
+
+
+
+Route::prefix('blog')->name('blog.')->group(function () {
+    Route::get('/frontend-development', function () {
+        return Inertia::render('web/articles/frontend');
+    })->name('frontend');
+
+    Route::get('/react', function () {
+        return Inertia::render('web/articles/react');
+    })->name('react');
+
+    Route::get('/other-libraries', function () {
+        return Inertia::render('web/articles/otherLibraries');
+    })->name('other-libraries');
+
+    Route::get('/backend', function () {
+        return Inertia::render('web/articles/backend');
+    })->name('backend');
+
+    Route::get('/laravel', function () {
+        return Inertia::render('web/articles/laravel');
+    })->name('laravel');
+
+    Route::get('/mobile', function () {
+        return Inertia::render('web/articles/mobile');
+    })->name('mobile');
+});
+
 Route::prefix('docs')->name('doc.')->group(function () {
     // Overview
     Route::get('/installation', function () {
@@ -87,6 +123,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return Inertia::render('dashboard/index');
     })->name('dashboard');
 });
+
+Route::post('/messages', [\App\Http\Controllers\MessageController::class, 'store'])->name('messages.store');
 
 require __DIR__ . '/settings.php';
 require __DIR__ . '/auth.php';

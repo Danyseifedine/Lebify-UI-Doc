@@ -67,9 +67,8 @@ export function Navbar() {
                             <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
                                 {[
                                     { href: route('doc.installation'), label: 'Docs' },
-                                    { href: '/playground', label: 'Playground' },
-                                    { href: '/guides', label: 'Guides' },
-                                    { href: '/blog', label: 'Blog' }
+                                    { href: route('blog'), label: 'Blog' },
+                                    { href: route('contributors'), label: 'Contributors' }
                                 ].map((item) => (
                                     <Link
                                         key={item.label}
@@ -167,10 +166,9 @@ export function Navbar() {
                     <div className="flex-1 overflow-y-auto py-6 px-4">
                         <nav className="space-y-2">
                             {[
-                                { href: '/docs', label: 'Docs' },
-                                { href: '/playground', label: 'Playground' },
-                                { href: '/guides', label: 'Guides' },
-                                { href: '/blog', label: 'Blog' }
+                                { href: route('doc.installation'), label: 'Docs' },
+                                { href: route('blog'), label: 'Blog' },
+                                { href: route('contributors'), label: 'Contributors' }
                             ].map((item) => (
                                 <Link
                                     key={item.label}
