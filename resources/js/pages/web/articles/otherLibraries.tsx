@@ -19,7 +19,7 @@ return (
                     <div className="w-full max-w-4xl">
                         <div className="rounded-2xl overflow-hidden shadow-2xl aspect-square md:aspect-square relative">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                            <img src="/assets/images/blog-5.png" alt="Modern JavaScript Frameworks" className="w-full h-full object-cover" />
+                            <img src="/assets/images/blog-beyond.png" alt="Modern JavaScript Frameworks" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
@@ -1058,13 +1058,13 @@ export const count = writable(0);
                                 className="rounded-xl overflow-hidden max-w-md mx-auto"
                             >
                                 <img
-                                    src="/assets/images/leb-icon-other.png"
+                                    src="/assets/images/beyond-leb.png"
                                     alt="UI Libraries Comparison"
                                     className="w-full h-auto object-contain"
                                     onError={(e) => {
                                         // Fallback if the icon is not available
                                         const target = e.target as HTMLImageElement;
-                                        target.src = "/assets/images/Leb-icon.png";
+                                        target.src = "/assets/images/beyond-leb.png";
                                     }}
                                 />
                             </motion.div>

@@ -19,7 +19,7 @@ return (
                     <div className="w-full max-w-4xl">
                         <div className="rounded-2xl overflow-hidden shadow-2xl aspect-square md:aspect-square relative">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                            <img src="/assets/images/blog-1.png" alt="Backend Development" className="w-full h-full object-cover" />
+                            <img src="/assets/images/backend-blog.png" alt="Backend Development" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
@@ -1556,7 +1556,7 @@ app.listen(port, () => {
                                 className="rounded-xl overflow-hidden max-w-md mx-auto"
                             >
                                 <img
-                                    src="/assets/images/leb-icon-frontend2.png"
+                                    src="/assets/images/leb-backend.png"
                                     alt="YouTube Videos"
                                     className="w-full h-auto object-contain"
                                     onError={(e) => {
